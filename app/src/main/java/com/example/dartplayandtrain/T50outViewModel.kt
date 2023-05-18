@@ -203,7 +203,7 @@ class T50outViewModel : ViewModel() {
      */
     private fun zapisDoDb(pocetKol: Int, callback: DataSavedCallback) {
 
-        val identifikatorDb = "/top/denny/priemer/t50out" // Upravte identifikátor databázy podľa vašich potrieb
+        val identifikatorDb = "/top/denny/priemer/t50out"
 
         database.child(identifikatorDb).addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {

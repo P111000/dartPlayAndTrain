@@ -65,17 +65,13 @@ class StatistikaNaPloche : AppWidgetProvider() {
                         t50out = value
                     }
                 }
-
                 val statistics = "Denná štatistika: High Score - $highScore, T121 - $t121, T50out - $t50out"
-
                 // Konštrukcia RemoteViews objektu
                 val views = RemoteViews(context.packageName, R.layout.statistika_na_ploche)
                 views.setTextViewText(R.id.appwidget_text, statistics)
-
                 // Aktualizácia widgetu
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
-
             override fun onCancelled(error: DatabaseError) {
                 // Spracovanie chyby pri načítaní dát z databázy
             }

@@ -43,13 +43,10 @@ class StatistikaActivity : AppCompatActivity() {
 
                     if (key == "highScore") {
                         highScore = value.toString()
-                        // Provádějte další operace s hodnotou highScore
                     } else if (key == "t121") {
                         t121 = value.toString()
-                        // Provádějte další operace s hodnotou t121
                     } else if (key == "t50out") {
                         t50out = value.toString()
-                        // Provádějte další
                     }
                 }
                 val statistika = Statistika(highScore, t121, t50out)
@@ -61,7 +58,6 @@ class StatistikaActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                // Handle error
             }
         })
     }
