@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "75061140759",
+    "firebase_url": "https://dartplayandtraining-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dartplayandtraining",
+    "storage_bucket": "dartplayandtraining.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75061140759:android:0160548ad88a97642e6b52",
+        "android_client_info": {
+          "package_name": "com.example.dartplayandtrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75061140759-54nhsbctbe76iso8q2uqghqbce0a5i1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZNwgzeEVPnlIwn3dhDFO4KxgNkOHpu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75061140759-54nhsbctbe76iso8q2uqghqbce0a5i1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

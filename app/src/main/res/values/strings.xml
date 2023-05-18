@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">dartPlayAndTrain</string>
+    <string name="meno_hraca1">Player 1</string>
+    <string name="meno_hraca2">Player 2</string>
+    <!--hodnoty pre hry-->
+    <string name="hra_901">901</string>
+    <string name="hra_701">701</string>
+    <string name="hra_501">501</string>
+    <string name="hra_301">301</string>
+
+    <!--Zobrazovanie bez hard codu-->
+    <string name="zobraz_0">0</string>
+    <string name="zobraz_1">1</string>
+    <string name="zobraz_2">2</string>
+    <string name="zobraz_3">3</string>
+    <string name="zobraz_4">4</string>
+    <string name="zobraz_5">5</string>
+    <string name="zobraz_6">6</string>
+    <string name="zobraz_7">7</string>
+    <string name="zobraz_8">8</string>
+    <string name="zobraz_9">9</string>
+
+
+    <!--Nazvy do gui -->
+    <string name="leg">Leg</string>
+    <string name="round">Round</string>
+    <string name="set">Set</string>
+    <string name="legs_skratka">L</string>
+    <string name="Sets_skratka">S</string>
+    <string name="legs">Legs</string>
+    <string name="Sets">Sets</string>
+    <string name="rounds">Rounds</string>
+    <string name="START">START</string>
+    <string name="start">Start</string>
+    <string name="Darts_to_close">Darts to close</string>
+    <string name="Increased_by">Increased by</string>
+    <string name="name">Name</string>
+    <string name="palayer1">Player 1</string>
+    <string name="palayer2">Player 2</string>
+    <string name="handicap">Handicap</string>
+
+    <string name="finished_by_3_darts">Finished by 3 darts?</string>
+    <string name="finished_by_6_darts">Finished by 6 darts?</string>
+    <string name="finished_by_9_darts">Finished by 9 darts?</string>
+
+
+    <!--nazvy hier -->
+    <string name="highScore">High Score</string>
+    <string name="highScoreSettings">High Score settings</string>
+    <string name="t121">121</string>
+    <string name="t121_settings">121 settings</string>
+    <string name="t50out">50 out</string>
+    <string name="x01_Game">x01 Game</string>
+    <string name="x01_Settings">x01 Settings</string>
+
+    <string name="dennaStatistika">Denna Statistika</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/icons8close50"
+            android:id="@+id/finish_by_Nth_Dart_no"
+            android:backgroundTint="#6200EC" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintVertical_bias="0.908" android:contentDescription="@android:string/cancel"/>
+    <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/done_50" android:id="@+id/finish_by6_yes"
+            android:backgroundTint="#6200ED" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.332" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.908" android:contentDescription="@android:string/no"/>
+    <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/done_50" android:id="@+id/finish_by_Nth_dart_yes"
+            android:backgroundTint="#6200ED" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.332" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.676" android:contentDescription="@android:string/no"/>
+    <TextView
+            android:text="@string/zobraz_0"
+            android:layout_width="180dp"
+            android:layout_height="110dp" android:id="@+id/nahadzane_skore"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.142" android:textSize="96sp"
+            app:layout_constraintHorizontal_bias="0.029"/>
+    <TextView
+            android:text="@string/t50out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/nazov"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.023" app:layout_constraintVertical_bias="0.015"
+            android:textStyle="bold" android:textSize="20sp"/>
+    <TextView
+            android:text="@string/zobraz_0"
+            android:layout_width="93dp"
+            android:layout_height="65dp" android:id="@+id/hodene_score"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.482" android:textSize="48sp"
+            app:layout_constraintHorizontal_bias="0.04"/>
+    <Button
+            android:text="@string/zobraz_5"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_5"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.775" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.295"/>
+    <Button
+            android:text="@string/zobraz_4"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_4"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.613" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.3"/>
+    <Button
+            android:text="@string/zobraz_9"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_9"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.94" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.094"/>
+    <Button
+            android:text="@string/zobraz_7"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_7"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.613" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.094"/>
+    <Button
+            android:text="@string/zobraz_8"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_8"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.775" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.094"/>
+    <Button
+            android:text="@string/zobraz_2"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.775" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.498"/>
+    <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/icons8close50"
+            android:id="@+id/vymaz_zadane_skore_button"
+            android:backgroundTint="#6200EC" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.613"
+            app:layout_constraintVertical_bias="0.702" android:contentDescription="@android:string/cancel"/>
+    <Button
+            android:text="@string/zobraz_3"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_3"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.94" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.498"/>
+    <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/done_50" android:id="@+id/potvrd_zadane_skore_button"
+            android:backgroundTint="#6200ED" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.702" android:contentDescription="@android:string/no"/>
+    <Button
+            android:text="@string/zobraz_1"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_1"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.613" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.498"/>
+    <Button
+            android:text="@string/zobraz_0"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_0"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.775" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.702"/>
+    <Button
+            android:text="@string/zobraz_6"
+            android:layout_width="90dp"
+            android:layout_height="62dp" android:id="@+id/cislo_6"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.94" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.295"/>
+    <TextView
+            android:text="@string/finished_by_6_darts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/t50_finished_by_6_text_var"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.047" app:layout_constraintVertical_bias="0.869"
+            android:textSize="20sp"/>
+    <TextView
+            android:text="@string/finished_by_3_darts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/t121_finished_by_9_text_var"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.658"
+            android:textSize="20sp"/>
+    <TextView
+            android:text="@string/round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/t50_out_rounds_text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintVertical_bias="0.15"/>
+    <TextView
+            android:text="@string/zobraz_0"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" android:id="@+id/t50_out_rounds_var"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@+id/t50_out_rounds_text"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.073" app:layout_constraintVertical_bias="0.15"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

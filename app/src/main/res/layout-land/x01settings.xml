@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <Spinner
+            android:layout_width="130dp"
+            android:layout_height="48dp" android:id="@+id/handicapHrac2Drop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:entries="@array/druh_hier_prex01"
+            android:prompt="@string/druhy_hier"
+            android:layout_marginTop="33dp" app:layout_constraintTop_toBottomOf="@+id/checkbox_handicapHrac2"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.354"/>
+    <Spinner
+            android:layout_width="130dp"
+            android:layout_height="48dp" android:id="@+id/handicapHrac1Drop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:entries="@array/druh_hier_prex01"
+            android:prompt="@string/druhy_hier"
+            android:layout_marginTop="38dp" app:layout_constraintTop_toBottomOf="@+id/checkbox_handicapHrac1"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.048"/>
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" android:id="@+id/dropMenuPrePocetLegov"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.131"
+            android:entries="@array/pocet_legov"
+            android:prompt="@string/druhy_hier"
+            app:layout_constraintTop_toBottomOf="@+id/startButtonX01"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.885"/>
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" android:id="@+id/dropMenuPrePocetSetov"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.011"
+            android:entries="@array/pocet_setovov"
+            android:prompt="@string/druhy_hier"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/dropMenuPrePocetLegov"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.885"/>
+    <Button
+            android:text="@string/START"
+            android:layout_width="200dp"
+            android:layout_height="60dp" android:id="@+id/startButtonX01"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.085"/>
+    <TextView
+            android:text="@string/Sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/setsnapis"
+            app:layout_constraintTop_toBottomOf="@+id/pocetLegovText" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.55" app:layout_constraintVertical_bias="0.162"/>
+    <CheckBox
+            android:text="@string/handicap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/checkbox_handicapHrac2"
+            android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/input_meno_hraca2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.332"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="@string/palayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/player2_nazov_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.313" app:layout_constraintVertical_bias="0.019"
+            android:layout_marginTop="27dp" app:layout_constraintTop_toBottomOf="@+id/dropMenuPreVyberHier"/>
+    <TextView
+            android:text="@string/x01_Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/x01_nazov"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.025" app:layout_constraintVertical_bias="0.041"
+            android:textSize="20sp" android:textStyle="bold"/>
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" android:id="@+id/dropMenuPreVyberHier"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:entries="@array/druh_hier_prex01"
+            android:prompt="@string/druhy_hier"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/x01_nazov"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.054"/>
+    <TextView
+            android:text="@string/palayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/player1_nazov_text"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dropMenuPreVyberHier" app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintVertical_bias="0.086"/>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="128dp"
+            android:layout_height="58dp"
+            android:hint="@string/name" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/player1_nazov_text" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.048" app:layout_constraintVertical_bias="0.0"
+            android:id="@+id/input_meno_hraca1"/>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="128dp"
+            android:layout_height="58dp"
+            android:hint="@string/name" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/player2_nazov_text"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.353"
+            app:layout_constraintVertical_bias="0.042" android:id="@+id/input_meno_hraca2"/>
+    <CheckBox
+            android:text="@string/handicap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/checkbox_handicapHrac1"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/input_meno_hraca1" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="@string/legs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/pocetLegovText"
+            android:layout_marginTop="65dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintVertical_bias="0.226" app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

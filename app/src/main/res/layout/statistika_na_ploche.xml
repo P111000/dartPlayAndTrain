@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/Widget.DartPlayAndTrain.AppWidget.Container"
+                android:theme="@style/Theme.DartPlayAndTrain.AppWidgetContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            style="@style/Widget.DartPlayAndTrain.AppWidget.InnerView"
+            android:id="@+id/appwidget_text"
+            android:layout_width="362dp"
+            android:layout_height="164dp"
+            android:text="@string/dennaStatistika"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:contentDescription="@string/appwidget_text"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
